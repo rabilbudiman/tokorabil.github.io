@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+	rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+	</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<title>Toserba</title>
+</head>
+<body>
+	<nav class="bg navbar navbar-expand-lg fixed-top navbar-light d-flex">
+		<div class="container-fluid">
+			<h1 class="navbar-brand fs-2">Toserba</h1>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="textbold collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<ul class="log navbar-nav me-right mb-2 mb-lg-0">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								login
+								<div class="dropdown-menu menu-login bg-secondary">
+									<form class="px-5 py-3">
+										<div class="">
+											<label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+											<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+										</div>
+										<div class="mb-3">
+											<label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+											<input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+										</div>
+										<div class="mb-3">
+											<div class="form-check">
+												<input type="checkbox" class="form-check-input" id="dropdownCheck">
+												<label class="form-check-label" for="dropdownCheck">
+													Remember me
+												</label>
+											</div>
+										</div>
+										<button type="submit" class="btn btn-primary">Sign in</button>
+									</form>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">New around here? Sign up</a>
+									<a class="dropdown-item" href="#">Forgot password?</a>
+								</div>
+							</li>
+						</ul>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link active dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Kategori
+							</a>
+							<ul class="dropdown-menu dropdown-menu bg-secondary" aria-labelledby="navbarDarkDropdownMenuLink">
+								<li><a class="fw-bold dropdown-item" href="#pakaian">pakaian</a></li>
+								<li><a class="fw-bold dropdown-item" href="#elektronik">elektronik</a></li>
+								<li><a class="fw-bold dropdown-item" href="#dapur">Rumah Tangga</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="Hubungi.html">Hubungi Kami</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="tentang.html">Tentang</a>
+						</li>
+						<li>
+							<img class="home" src="img/logob.png">
+						</li>
+						<li>
+						</ul>
+						<form class="d-flex">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success" type="submit">Search</button>
+						</form>
+						<span>
+							<a class="keranjang material-icons" href="#">shopping_cart</a>
+						</span>
+					</div>
+				</div>
+			</nav>
+		</div>
+				<section id="pakaian">
+			<img src="img/pakaian.jpg" class="img-fluid" alt="...">
+		</section>
+		<section id="pakaian" class="bg">
+			<h3 class="sec">Pakaian</h3>
+			<div class="card-group">
+				<div class="card m-5">
+					<img src="kemeja.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Kemeja pria</h5>
+						<p class="card-text">Tablet ini mempunyai performa tingkat selanjutnya dan kekuatan baterai sepanjang hari. Layar Liquid Retina XDR 12,9 inci yang cocok untuk mengedit foto serta video</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="topi.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Topi wanita</h5>
+						<p class="card-text">Diluncurkan sebagai Kamera Mirrorless full frame. datang dengan terobosan teknologi komunikasi berkecepatan tinggi antara lensa dan kamera.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="dasi.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Dasi Kerja</h5>
+						<p class="card-text">ini adalah laptop merek terbaru! dilengkapi dengan kebutuhan yang anda inginkan. pesan sekarang dan dapatkan free keyboard dan mouse gaming!.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+			</div>
+			<div class="card-group">
+				<div class="card m-5">
+					<img src="Bra.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Bra wanita</h5>
+						<p class="card-text">iPhone 13. Sistem kamera ganda paling canggih yang pernah ada di iPhone. Chip A15 Bionic yang secepat kilat. Lompatan besar dalam kekuatan baterai.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="rajut.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Rajutan</h5>
+						<p class="card-text">Katakan tidak pada tangan gemetar! Mudah mendapatkan pergerakan kamera yang mulus. didesain secara ergonomis membuat pegangan Anda lebih mudah.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="jeans.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Celana jeans</h5>
+						<p class="card-text">Gamepad Joystick Nirkabel Pengendali Bluetooth Pro untuk Nintendo N-switch dengan teknologi terbaru dan daya tahan baterai yang lebih lama 
+						</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<img src="elektronik.jpg" class="img-fluid" alt="...">
+		</section>
+		<section id="elektronik" class="bg">
+			<h3 class="sec">Elektronik</h3>
+			<div class="card-group">
+				<div class="card m-5">
+					<img src="tablet.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Tablet</h5>
+						<p class="card-text">Tablet ini mempunyai performa tingkat selanjutnya dan kekuatan baterai sepanjang hari. Layar Liquid Retina XDR 12,9 inci yang cocok untuk mengedit foto serta video</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="kamera.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Kamera</h5>
+						<p class="card-text">Diluncurkan sebagai Kamera Mirrorless full frame. datang dengan terobosan teknologi komunikasi berkecepatan tinggi antara lensa dan kamera.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="laptop.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Laptop</h5>
+						<p class="card-text">ini adalah laptop merek terbaru! dilengkapi dengan kebutuhan yang anda inginkan. pesan sekarang dan dapatkan free keyboard dan mouse gaming!.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+			</div>
+			<div class="card-group">
+				<div class="card m-5">
+					<img src="iphone.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Iphone</h5>
+						<p class="card-text">iPhone 13. Sistem kamera ganda paling canggih yang pernah ada di iPhone. Chip A15 Bionic yang secepat kilat. Lompatan besar dalam kekuatan baterai.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="gimbal.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Gimbal</h5>
+						<p class="card-text">Katakan tidak pada tangan gemetar! Mudah mendapatkan pergerakan kamera yang mulus. didesain secara ergonomis membuat pegangan Anda lebih mudah.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="joystik.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Joystick</h5>
+						<p class="card-text">Gamepad Joystick Nirkabel Pengendali Bluetooth Pro untuk Nintendo N-switch dengan teknologi terbaru dan daya tahan baterai yang lebih lama 
+						</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+			</div>
+		</section>
+				<section>
+			<img src="dapur.jpg" class="img-fluid" alt="...">
+		</section>
+		<section id="dapur" class="bg">
+			<h3 class="sec">Rumah Tangga</h3>
+			<div class="card-group">
+				<div class="card m-5">
+					<img src="pisau.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Pisau</h5>
+						<p class="card-text">Tablet ini mempunyai performa tingkat selanjutnya dan kekuatan baterai sepanjang hari. Layar Liquid Retina XDR 12,9 inci yang cocok untuk mengedit foto serta video</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="sendok.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Sendok Dapur</h5>
+						<p class="card-text">Diluncurkan sebagai Kamera Mirrorless full frame. datang dengan terobosan teknologi komunikasi berkecepatan tinggi antara lensa dan kamera.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="kursi.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Lukisan</h5>
+						<p class="card-text">ini adalah laptop merek terbaru! dilengkapi dengan kebutuhan yang anda inginkan. pesan sekarang dan dapatkan free keyboard dan mouse gaming!.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+			</div>
+			<div class="card-group">
+				<div class="card m-5">
+					<img src="Sofa.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Sofa</h5>
+						<p class="card-text">iPhone 13. Sistem kamera ganda paling canggih yang pernah ada di iPhone. Chip A15 Bionic yang secepat kilat. Lompatan besar dalam kekuatan baterai.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="Gelas.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Gelas</h5>
+						<p class="card-text">Katakan tidak pada tangan gemetar! Mudah mendapatkan pergerakan kamera yang mulus. didesain secara ergonomis membuat pegangan Anda lebih mudah.</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+				<div class="card m-5">
+					<img src="tempatbumbu.jpg" width="200" height="250" class="produk card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Tempat Bumbu</h5>
+						<p class="card-text">Gamepad Joystick Nirkabel Pengendali Bluetooth Pro untuk Nintendo N-switch dengan teknologi terbaru dan daya tahan baterai yang lebih lama 
+						</p>
+						<p>Rp.120.000 <del>Rp.200.000</del></p>
+						<a href="#" class="produk1 btn btn-warning">Belanja Sekarang</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="credit1">
+			<div class="credit footer-content">
+				<h3>Credit</h3>
+				<p>Semoga anda senang dengan Produk kami!</p>
+			</div>
+			<div class="footer-bottom">
+				<ul class="socials">
+					<li><a href="#"><i class="bi bi-facebook"></i></a></li>
+					<li><a href="#"><i class="bi bi-instagram"></i></a></li>
+					<li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+				</ul>
+				<p>Copyright &copy;2021</p>
+			</div>
+		</footer>
+	</body>
+	</html>
